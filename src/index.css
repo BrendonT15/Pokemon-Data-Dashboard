@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16;
+}
+
+.Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(34, 34, 34, 0.9));
+  box-shadow: 4px 0 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding-top: 20px;
+  color: #f9f9f9;
+  z-index: 1;
+}
+
+.Navbar h2{
+  margin: 1.2rem;
+}
+
+.PokeCard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 250px; /* Set a width for each card */
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  margin: 10px; /* Add some spacing between cards */
+}
+
+.PokeCard h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffcb05; /* Pokémon yellow theme color */
+}
+
+.PokeCard h2 {
+  font-size: 18px;
+  margin-top: 0;
+  color: #3b4cca; /* Pokémon blue theme color */
+}

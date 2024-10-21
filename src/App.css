@@ -1,0 +1,96 @@
+.App {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);;
+  z-index: 0;
+}
+
+.container {
+  background-color: rgba(0, 150, 255, 0.2); /* Light blue background to visualize */
+  border: 2px solid red; /* Red border to see if the container is present */
+  padding: 20px; /* Some padding to separate children from edges */
+  z-index: 999;
+}
+
+.content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f4f4f4;
+  height: 70%; /* Ensure it takes up full viewport height */
+  border-radius: 12px;
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.pokemon-info {
+  display: flex; /* Arrange items in a row */
+  align-items: center; /* Align items vertically centered */
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 100%; /* Ensure it takes full width */
+  max-width: 700px; /* Limit the width */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color:rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.pokemon-info img {
+  width: 60px; /* Resize Pokémon image */
+  height: 60px;
+  margin-right: 15px;
+}
+
+.pokemon-info p {
+  margin: 0 10px;
+  font-size: 14px;
+  color:rgba(0, 0, 0, 0.8)
+}
+
+.pokemon-info strong {
+  font-size: 16px;
+  margin-right: 5px;
+  color:rgba(0, 0, 0, 0.8)
+}
+
+.content ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 50px;
+  margin: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.content li {
+  flex: 1;
+  font-weight: bold;
+}
+
+.input-container {
+  position: absolute; /* Use absolute positioning */
+  top: 90px; /* Adjust the top position as needed */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the element */
+  z-index: 1000; /* Ensure it's on top of other elements */
+  width: 80%; /* Adjust width as needed */
+  max-width: 400px; /* Set a max width to prevent it from getting too wide */
+}
+
+input {
+  width: 100%; /* Makes the input full-width */
+  padding: 10px; /* Add some padding for better appearance */
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+  border: 1px solid #ccc; /* Light border for input */
+  border-radius: 4px; /* Rounded corners */
+}
