@@ -1,4 +1,4 @@
-![pokemon](https://github.com/user-attachments/assets/8c1c68ae-275b-4f45-adc9-d401fc2311b9)# Web Development Project 5 - Pokemon Data Dashboard
+# Web Development Project 5 - Pokemon Data Dashboard
 
 Submitted by: Brendon Thai
 
@@ -29,9 +29,9 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+![pokemon](https://github.com/user-attachments/assets/8c1c68ae-275b-4f45-adc9-d401fc2311b9)
 
-![Upl[README.md](https://github.com/user-attachments/files/17452864/README.md)oading pokemon.gif…]()
+Here's a walkthrough of implemented user stories:
 
 
 <!-- Replace this with whatever GIF tool you used! -->
