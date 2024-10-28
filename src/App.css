@@ -94,3 +94,113 @@ input {
   border: 1px solid #ccc; /* Light border for input */
   border-radius: 4px; /* Rounded corners */
 }
+
+.About {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f8f8f8; /* Light background to keep it subtle */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.About h1 {
+  font-size: 2rem;
+  color: #3b4cca; /* Pokémon-themed blue */
+  margin-bottom: 1rem;
+}
+
+.About p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.Insight {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.Insight h1 {
+  font-size: 2rem;
+  color: #3b4cca; /* Pokémon-themed blue color */
+  margin-bottom: 1.5rem;
+}
+
+.Insight .recharts-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.Insight p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.Insight .no-data {
+  color: #d9534f;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.Insight {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.Insight h1 {
+  font-size: 2rem;
+  color: #3b4cca; /* Pokémon-themed blue color */
+  margin-bottom: 1.5rem;
+}
+
+.pokemon-details {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.pokemon-details p {
+  margin: 0.5rem 0;
+}
+
+.pokemon-details strong {
+  color: #8884d8;
+}
+
+.Insight .recharts-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.Insight p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.Insight .no-data {
+  color: #d9534f;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
